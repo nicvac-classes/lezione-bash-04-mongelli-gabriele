@@ -14,5 +14,5 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
+ awk -F ',' '{print $1,$2}' prodotti.csv 
 
